@@ -171,8 +171,8 @@ export default function SendMessage() {
       <Separator className="my-6" />
       <div className="text-center">
         <div className="mb-4">Get Your Message Board</div>
-        <Link href={"/sign-up"}>
-          <Button>Create Your Account</Button>
+        <Link href={"/dashboard"}>
+          <Button>go</Button>
         </Link>
       </div>
     </div>
