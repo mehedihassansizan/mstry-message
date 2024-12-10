@@ -18,6 +18,7 @@
     "@radix-ui/react-switch": "^1.1.1",
     "@radix-ui/react-toast": "^1.2.2",
     "@react-email/components": "^0.0.25",
+    "@vercel/speed-insights": "^1.1.0",
     "ai": "^3.4.33",
     "axios": "^1.7.8",
     "class-variance-authority": "^0.7.1",

@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -7,6 +8,7 @@ interface RootLayoutProps {
 export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <div className="flex flex-col min-h-screen">
+      <SpeedInsights />
       <Navbar />
       {children}
     </div>
